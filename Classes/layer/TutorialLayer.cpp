@@ -9,39 +9,109 @@
 #include "TutorialLayer.h"
 
 
+string guidText[] =
+{
+    "FreeCell is one of the famous solitaire games. \nThis game contains three areas: the column area at \nthe bottom,the free cell area at the upper left, and the \nhome cell area at the upper right area.",
+    "Columns Area: A deck of cards, which is dealt face-up at beginning \nof the game.n Cards in the Columns can be moved between Columns only \nin descending order, (e.g. 4,3,2), and alternating colors, \n(e.g. red, back, red, black).",
+    "Home Cells: Located in the upper-right corner of the screen. \nYou win the game by moving all of the cards to the Home Cells. \nAces must be moved to Home Cells first from the Columns. \nThen other cards of the same suit can be moved on top of \nthem in ascending order.",
+    "Free Cells: Located in the upper-left corner of the screen. \nEach FreeCell can be used to temporarily hold any ONE card moved \nfrom the Columns. Cards in the FreeCells can be moved to \neither the Home Cells or back to the Columns.",
+    "The object of FreeCell is to move all of the cards to \nthe Home Cells.",
+    "Now you can continue to double-click indicated card to \nmove it Home (2 on 1).",
+    "Yes, you can continue to double-click the indicated card \nto move it Home(3 on 2).",
+    "Cards moved onto Columns must be the next lowest number, \nand the alternate color.",
+    "Move cards from Column to Column to uncover cards that are \nable to move to the Home Cells.",
+    "Now you can drag the 4 of Hearts onto the Home Cell.",//9
+    "A stack of cards can be moved between Columns if they are in \ndescending order and alternating colors.",
+    "Now continue to drag card 2 onto 3 as indicated.",//11
+    "Empty Columns are useful as any card can be played on an \nempty Column.",//12
+    ""
+};
+//文字提示双击的时候，双击下方的按钮是不管用的－－只能双击对应的扑克  2014.7.16//
+string btnGuidText[]=
+{
+    "Continue",//0
+    "Continue",
+    "Continue",
+    "Continue",
+    "Double-click the indicated card",
+    "Continue",
+    "Continue",
+    "Drag the card to the indicated Column",
+    "Continue",
+    "Drag the card to the indicated Home column",//9
+    "Drag the series of cards to the indicated Column",//10
+    "Continue",//11
+    "Continue",//12
+    ""
+};
+const char* pImageCards[16]={
+    "Images/cards/di_1.png",
+    "Images/cards/sp_3.png",
+    "Images/cards/di_2.png",
+    "Images/cards/sp_4.png",
+    "Images/cards/sp_2.png",
+    "Images/cards/cl_1.png",
+    "Images/cards/he_4.png",
+    "Images/cards/he_3.png",
+    "Images/cards/sp_1.png",
+    "Images/cards/cl_4.png",
+    "Images/cards/cl_2.png",
+    "Images/cards/he_2.png",
+    "Images/cards/di_3.png",
+    "Images/cards/di_4.png",
+    "Images/cards/cl_3.png",
+    "Images/cards/he_1.png"
+};
+
+
+
+
+
+
 void TutorialLayer::initThings() {
 
 
 }
 
 void TutorialLayer::onCreateGameLayer(){
-  _rootLayer=CSLoader::createNode("<#filename#>");
+  _rootLayer=CSLoader::createNode("TUTUILayer.csb");
   if (_rootLayer==nullptr) {
        return;
    }
    addChild(_rootLayer);
-   _rootLayout=static_cast<Layout *>(_rootLayer->getChildByName("<#Panel_Back#>"));
+   _rootLayout=static_cast<Layout *>(_rootLayer->getChildByName("Panel_Back"));
    
+    
+ 
+    auto btn_ret=static_cast<Button *>(_rootLayout->getChildByName("Button_Ret"));
+    btn_ret->addClickEventListener([this](Ref *sender){
+        director->replaceScene(TransitionPageTurn::create(1.0f, FqaLayer::createScene(),true));
+        
+    });
+    
+    
+    
 
 
 }
 
 
 void TutorialLayer::onClick(Ref *sender){
-  <#ViewType#> *view=dynamic_cast<<#ViewType#>  *>(sender);
+  Button *view=dynamic_cast<Button  *>(sender);
 
   if (view==nullptr) {
       return;
-  } 
+  }
+
   switch (view->getTag()) {
       case 1:
-      <#expression#>
 
           break;
 
       default:
           break;
-  } 
+  }
+
 
 }
 

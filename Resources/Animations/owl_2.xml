@@ -1,0 +1,108 @@
+<skeleton name="owl_2" frameRate="24" version="2.2">
+  <armatures>
+    <armature name="owl2_animation">
+      <b name="body" x="-1" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="owl_2-owl_body_2" pX="92.4" pY="86.35"/>
+      </b>
+      <b name="left_foot" x="35.35" y="87.85" kX="0" kY="0" cX="0.56" cY="0.56" pX="0" pY="0" z="1">
+        <d name="owl_2-owl_foot_2" pX="36.25" pY="25.65"/>
+      </b>
+      <b name="right_foot" x="-26.7" y="87.15" kX="0" kY="0" cX="0.53" cY="0.53" pX="0" pY="0" z="2">
+        <d name="owl_2-owl_foot_2" pX="36.25" pY="25.65"/>
+      </b>
+      <b name="head" x="-2" y="-115.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3">
+        <d name="owl_2-owl_face_2" pX="82.15" pY="48.8"/>
+      </b>
+      <b name="small_wing" x="80.2" y="-36.65" kX="0" kY="0" cX="1.58" cY="1" pX="0" pY="0" z="4">
+        <d name="owl_2-owl_right_wing_2" pX="15.55" pY="42.3"/>
+      </b>
+      <b name="big_wing" x="-57.05" y="-64" kX="0" kY="0" cX="1" cY="1" pX="30" pY="-53" z="5">
+        <d name="owl_2-owl_left_wing_2" pX="66.65" pY="72.95"/>
+      </b>
+      <b name="nose" x="0.95" y="-84.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="6">
+        <d name="owl_2-owl_nose_2" pX="14.1" pY="16.95"/>
+      </b>
+      <b name="right_eye" x="-34.7" y="-111.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="7">
+        <d name="owl_2-owl_eye_2" pX="25.75" pY="25.75"/>
+      </b>
+      <b name="left_eye" x="32.35" y="-114.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="8">
+        <d name="owl_2-owl_eye_2" pX="25.75" pY="25.75"/>
+      </b>
+      <b name="right_eye_closed" x="-36.05" y="-114.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="7">
+        <d name="owl_2-owl_eye_closed" pX="25.4" pY="9.45"/>
+      </b>
+      <b name="left_eye_closed" x="32.7" y="-115.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="8">
+        <d name="owl_2-owl_eye_closed" pX="25.4" pY="9.45"/>
+      </b>
+      <b name="hair" x="-2" y="-138.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="9">
+        <d name="owl_2-owl_hair_2" pX="72.15" pY="39.45"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="owl2_animation">
+      <mov name="owl2_ani" dr="25" to="6" drTW="67" lp="1" twE="NaN">
+        <b name="body" sc="1" dl="0">
+          <f x="-1" y="0" cocos2d_x="-1" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="25"/>
+        </b>
+        <b name="left_foot" sc="1" dl="0">
+          <f x="35.35" y="87.85" cocos2d_x="35.35" cocos2d_y="87.85" kX="0" kY="0" cX="0.56" cY="0.56" pX="0" pY="0" z="1" dI="0" dr="25"/>
+        </b>
+        <b name="right_foot" sc="1" dl="0">
+          <f x="-26.7" y="87.15" cocos2d_x="-26.7" cocos2d_y="87.15" kX="0" kY="0" cX="0.53" cY="0.53" pX="0" pY="0" z="2" dI="0" dr="25"/>
+        </b>
+        <b name="head" sc="1" dl="0">
+          <f x="-2" y="-115.4" cocos2d_x="-2" cocos2d_y="-115.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3" dI="0" dr="25"/>
+        </b>
+        <b name="small_wing" sc="1" dl="0">
+          <f x="80.2" y="-36.65" cocos2d_x="80.2" cocos2d_y="-36.65" kX="0" kY="0" cX="1.58" cY="1" pX="0" pY="0" z="4" dI="0" dr="25"/>
+        </b>
+        <b name="big_wing" sc="1" dl="0">
+          <f x="-57.05" y="-64" cocos2d_x="-87.05" cocos2d_y="-11" kX="0" kY="0" cX="1" cY="1" pX="30" pY="-53" z="5" dI="0" dr="4"/>
+          <f x="-57.05" y="-64" cocos2d_x="-87.05" cocos2d_y="-11" kX="0" kY="0" cX="1" cY="1" pX="30" pY="-53" z="5" dI="0" twE="0" dr="5"/>
+          <f x="-57.05" y="-64" cocos2d_x="-98.2" cocos2d_y="-19.1" kX="13" kY="13" cX="1" cY="1" pX="30" pY="-53" z="5" dI="0" twE="0" dr="5"/>
+          <f x="-57.05" y="-64" cocos2d_x="-87.05" cocos2d_y="-11" kX="0" kY="0" cX="1" cY="1" pX="30" pY="-53" z="5" dI="0" dr="11"/>
+        </b>
+        <b name="nose" sc="1" dl="0">
+          <f x="0.95" y="-84.5" cocos2d_x="0.95" cocos2d_y="-84.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="6" dI="0" dr="25"/>
+        </b>
+        <b name="right_eye" sc="1" dl="0">
+          <f x="-34.7" y="-111.65" cocos2d_x="-34.7" cocos2d_y="-111.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="7" dI="0" dr="13"/>
+          <f x="-34.7" y="-111.65" cocos2d_x="-34.7" cocos2d_y="-111.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="7" dI="0" dr="1"/>
+          <f dr="5" dI="-1"/>
+          <f x="-34.7" y="-111.65" cocos2d_x="-34.7" cocos2d_y="-111.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="7" dI="0" dr="6"/>
+        </b>
+        <b name="left_eye" sc="1" dl="0">
+          <f x="32.35" y="-114.65" cocos2d_x="32.35" cocos2d_y="-114.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="8" dI="0" dr="13"/>
+          <f x="32.35" y="-114.65" cocos2d_x="32.35" cocos2d_y="-114.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="8" dI="0" dr="1"/>
+          <f dr="5" dI="-1"/>
+          <f x="32.35" y="-114.65" cocos2d_x="32.35" cocos2d_y="-114.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="8" dI="0" dr="6"/>
+        </b>
+        <b name="right_eye_closed" sc="1" dl="0">
+          <f dr="14" dI="-1"/>
+          <f x="-36.05" y="-114.65" cocos2d_x="-36.05" cocos2d_y="-114.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="7" dI="0" dr="5"/>
+          <f dr="6" dI="-1"/>
+        </b>
+        <b name="left_eye_closed" sc="1" dl="0">
+          <f dr="14" dI="-1"/>
+          <f x="32.7" y="-115.65" cocos2d_x="32.7" cocos2d_y="-115.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="8" dI="0" dr="5"/>
+          <f dr="6" dI="-1"/>
+        </b>
+        <b name="hair" sc="1" dl="0">
+          <f x="-2" y="-138.7" cocos2d_x="-2" cocos2d_y="-138.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="9" dI="0" dr="25"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="owl_2" width="512" height="256">
+    <SubTexture name="owl_2-owl_hair_2" width="145" height="79" cocos2d_pX="72.15" cocos2d_pY="39.45" x="323" y="100"/>
+    <SubTexture name="owl_2-owl_eye_closed" width="51" height="19" cocos2d_pX="25.4" cocos2d_pY="9.45" x="0" y="175"/>
+    <SubTexture name="owl_2-owl_eye_2" width="52" height="52" cocos2d_pX="25.75" cocos2d_pY="25.75" x="262" y="148"/>
+    <SubTexture name="owl_2-owl_nose_2" width="29" height="34" cocos2d_pX="14.1" cocos2d_pY="16.95" x="53" y="175"/>
+    <SubTexture name="owl_2-owl_left_wing_2" width="134" height="146" cocos2d_pX="66.65" cocos2d_pY="72.95" x="187" y="0"/>
+    <SubTexture name="owl_2-owl_right_wing_2" width="32" height="85" cocos2d_pX="15.55" cocos2d_pY="42.3" x="470" y="100"/>
+    <SubTexture name="owl_2-owl_face_2" width="165" height="98" cocos2d_pX="81.15" cocos2d_pY="47.8" x="323" y="0"/>
+    <SubTexture name="owl_2-owl_foot_2" width="73" height="52" cocos2d_pX="36.25" cocos2d_pY="25.65" x="187" y="148"/>
+    <SubTexture name="owl_2-owl_body_2" width="185" height="173" cocos2d_pX="92.4" cocos2d_pY="86.35" x="0" y="0"/>
+  </TextureAtlas>
+</skeleton>

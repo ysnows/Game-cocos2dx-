@@ -13,7 +13,17 @@ LOCAL_MODULE_FILENAME := libMyGame
 
 LOCAL_SRC_FILES := hellocpp/main.cpp \
                    ../../../Classes/AppDelegate.cpp \
-                   ../../../Classes/HelloWorldScene.cpp
+									 ../../../Classes/base/VisibleRect.cpp \
+									 ../../../Classes/base/BaseScene.cpp \
+									 ../../../Classes/layer/FqaLayer.cpp \
+									 ../../../Classes/layer/FirstScene.cpp \
+									 ../../../Classes/layer/TutorialLayer.cpp \
+									 ../../../Classes/layer/SplashScene.cpp \
+									 ../../../Classes/SQLiteDatabase/SQLiteResultSet.cpp \
+									 ../../../Classes/SQLiteDatabase/SQLiteDatabase.cpp \
+									 ../../../Classes/SQLiteDatabase/sqlite3.c \
+
+
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../../Classes
 

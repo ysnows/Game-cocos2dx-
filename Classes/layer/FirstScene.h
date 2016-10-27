@@ -25,7 +25,7 @@ using namespace cocostudio::timeline;
 
 //#include "../helper/FileHelper.h"
 
-#include "../layer/FqaLayer.h"
+#include "FqaLayer.h"
 
 class FirstScene :public Layer {
 

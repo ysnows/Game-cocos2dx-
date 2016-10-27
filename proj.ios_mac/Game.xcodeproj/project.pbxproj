@@ -13,6 +13,96 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		294D0D641D0D56D500F7F5D4 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294D0D631D0D56D500F7F5D4 /* CoreText.framework */; };
+		315F70301DC0476F006F9EA3 /* BonusDlgUILayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F70131DC0476F006F9EA3 /* BonusDlgUILayer.csb */; };
+		315F70311DC0476F006F9EA3 /* BonusDlgUILayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F70131DC0476F006F9EA3 /* BonusDlgUILayer.csb */; };
+		315F70321DC0476F006F9EA3 /* ButterflyArmature_01.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F70141DC0476F006F9EA3 /* ButterflyArmature_01.csb */; };
+		315F70331DC0476F006F9EA3 /* ButterflyArmature_01.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F70141DC0476F006F9EA3 /* ButterflyArmature_01.csb */; };
+		315F70341DC0476F006F9EA3 /* ButterflyArmature_02.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F70151DC0476F006F9EA3 /* ButterflyArmature_02.csb */; };
+		315F70351DC0476F006F9EA3 /* ButterflyArmature_02.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F70151DC0476F006F9EA3 /* ButterflyArmature_02.csb */; };
+		315F70361DC0476F006F9EA3 /* ButterflyArmature_010.plist in Resources */ = {isa = PBXBuildFile; fileRef = 315F70161DC0476F006F9EA3 /* ButterflyArmature_010.plist */; };
+		315F70371DC0476F006F9EA3 /* ButterflyArmature_010.plist in Resources */ = {isa = PBXBuildFile; fileRef = 315F70161DC0476F006F9EA3 /* ButterflyArmature_010.plist */; };
+		315F70381DC0476F006F9EA3 /* ButterflyArmature_010.png in Resources */ = {isa = PBXBuildFile; fileRef = 315F70171DC0476F006F9EA3 /* ButterflyArmature_010.png */; };
+		315F70391DC0476F006F9EA3 /* ButterflyArmature_010.png in Resources */ = {isa = PBXBuildFile; fileRef = 315F70171DC0476F006F9EA3 /* ButterflyArmature_010.png */; };
+		315F703A1DC0476F006F9EA3 /* ButterflyArmature_020.plist in Resources */ = {isa = PBXBuildFile; fileRef = 315F70181DC0476F006F9EA3 /* ButterflyArmature_020.plist */; };
+		315F703B1DC0476F006F9EA3 /* ButterflyArmature_020.plist in Resources */ = {isa = PBXBuildFile; fileRef = 315F70181DC0476F006F9EA3 /* ButterflyArmature_020.plist */; };
+		315F703C1DC0476F006F9EA3 /* ButterflyArmature_020.png in Resources */ = {isa = PBXBuildFile; fileRef = 315F70191DC0476F006F9EA3 /* ButterflyArmature_020.png */; };
+		315F703D1DC0476F006F9EA3 /* ButterflyArmature_020.png in Resources */ = {isa = PBXBuildFile; fileRef = 315F70191DC0476F006F9EA3 /* ButterflyArmature_020.png */; };
+		315F703E1DC0476F006F9EA3 /* BuyDlgLayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F701A1DC0476F006F9EA3 /* BuyDlgLayer.csb */; };
+		315F703F1DC0476F006F9EA3 /* BuyDlgLayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F701A1DC0476F006F9EA3 /* BuyDlgLayer.csb */; };
+		315F70441DC0476F006F9EA3 /* FirstUI0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 315F701D1DC0476F006F9EA3 /* FirstUI0.plist */; };
+		315F70451DC0476F006F9EA3 /* FirstUI0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 315F701D1DC0476F006F9EA3 /* FirstUI0.plist */; };
+		315F70461DC0476F006F9EA3 /* FirstUI0.png in Resources */ = {isa = PBXBuildFile; fileRef = 315F701E1DC0476F006F9EA3 /* FirstUI0.png */; };
+		315F70471DC0476F006F9EA3 /* FirstUI0.png in Resources */ = {isa = PBXBuildFile; fileRef = 315F701E1DC0476F006F9EA3 /* FirstUI0.png */; };
+		315F704C1DC0476F006F9EA3 /* ItemsDetailsUILayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F70211DC0476F006F9EA3 /* ItemsDetailsUILayer.csb */; };
+		315F704D1DC0476F006F9EA3 /* ItemsDetailsUILayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F70211DC0476F006F9EA3 /* ItemsDetailsUILayer.csb */; };
+		315F704E1DC0476F006F9EA3 /* LevelUILayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F70221DC0476F006F9EA3 /* LevelUILayer.csb */; };
+		315F704F1DC0476F006F9EA3 /* LevelUILayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F70221DC0476F006F9EA3 /* LevelUILayer.csb */; };
+		315F70501DC0476F006F9EA3 /* MainPauseUILayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F70231DC0476F006F9EA3 /* MainPauseUILayer.csb */; };
+		315F70511DC0476F006F9EA3 /* MainPauseUILayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F70231DC0476F006F9EA3 /* MainPauseUILayer.csb */; };
+		315F70521DC0476F006F9EA3 /* MainScene.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F70241DC0476F006F9EA3 /* MainScene.csb */; };
+		315F70531DC0476F006F9EA3 /* MainScene.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F70241DC0476F006F9EA3 /* MainScene.csb */; };
+		315F70541DC0476F006F9EA3 /* MainToolbarUILayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F70251DC0476F006F9EA3 /* MainToolbarUILayer.csb */; };
+		315F70551DC0476F006F9EA3 /* MainToolbarUILayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F70251DC0476F006F9EA3 /* MainToolbarUILayer.csb */; };
+		315F70561DC0476F006F9EA3 /* PackUILayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F70261DC0476F006F9EA3 /* PackUILayer.csb */; };
+		315F70571DC0476F006F9EA3 /* PackUILayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F70261DC0476F006F9EA3 /* PackUILayer.csb */; };
+		315F70581DC0476F006F9EA3 /* RoundUILayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F70271DC0476F006F9EA3 /* RoundUILayer.csb */; };
+		315F70591DC0476F006F9EA3 /* RoundUILayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F70271DC0476F006F9EA3 /* RoundUILayer.csb */; };
+		315F705A1DC0476F006F9EA3 /* SimpleContinueUILayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F70281DC0476F006F9EA3 /* SimpleContinueUILayer.csb */; };
+		315F705B1DC0476F006F9EA3 /* SimpleContinueUILayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F70281DC0476F006F9EA3 /* SimpleContinueUILayer.csb */; };
+		315F705C1DC0476F006F9EA3 /* SplashAnimationSkeleton.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F70291DC0476F006F9EA3 /* SplashAnimationSkeleton.csb */; };
+		315F705D1DC0476F006F9EA3 /* SplashAnimationSkeleton.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F70291DC0476F006F9EA3 /* SplashAnimationSkeleton.csb */; };
+		315F705E1DC0476F006F9EA3 /* SplashUILayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F702A1DC0476F006F9EA3 /* SplashUILayer.csb */; };
+		315F705F1DC0476F006F9EA3 /* SplashUILayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F702A1DC0476F006F9EA3 /* SplashUILayer.csb */; };
+		315F70601DC0476F006F9EA3 /* StoreUI_GoLayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F702B1DC0476F006F9EA3 /* StoreUI_GoLayer.csb */; };
+		315F70611DC0476F006F9EA3 /* StoreUI_GoLayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F702B1DC0476F006F9EA3 /* StoreUI_GoLayer.csb */; };
+		315F70621DC0476F006F9EA3 /* StoreUILayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F702C1DC0476F006F9EA3 /* StoreUILayer.csb */; };
+		315F70631DC0476F006F9EA3 /* StoreUILayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F702C1DC0476F006F9EA3 /* StoreUILayer.csb */; };
+		315F70641DC0476F006F9EA3 /* SummaryUILayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F702D1DC0476F006F9EA3 /* SummaryUILayer.csb */; };
+		315F70651DC0476F006F9EA3 /* SummaryUILayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F702D1DC0476F006F9EA3 /* SummaryUILayer.csb */; };
+		315F70661DC0476F006F9EA3 /* Thumbelina.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 315F702E1DC0476F006F9EA3 /* Thumbelina.sqlite */; };
+		315F70671DC0476F006F9EA3 /* Thumbelina.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 315F702E1DC0476F006F9EA3 /* Thumbelina.sqlite */; };
+		315F70681DC0476F006F9EA3 /* TUTUILayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F702F1DC0476F006F9EA3 /* TUTUILayer.csb */; };
+		315F70691DC0476F006F9EA3 /* TUTUILayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F702F1DC0476F006F9EA3 /* TUTUILayer.csb */; };
+		315F83101DC04A34006F9EA3 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 315F830F1DC04A34006F9EA3 /* Images */; };
+		315F83111DC04A34006F9EA3 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 315F830F1DC04A34006F9EA3 /* Images */; };
+		315F83131DC04AEF006F9EA3 /* Animations in Resources */ = {isa = PBXBuildFile; fileRef = 315F83121DC04AEF006F9EA3 /* Animations */; };
+		315F83141DC04AEF006F9EA3 /* Animations in Resources */ = {isa = PBXBuildFile; fileRef = 315F83121DC04AEF006F9EA3 /* Animations */; };
+		315F83181DC04AFB006F9EA3 /* Armature in Resources */ = {isa = PBXBuildFile; fileRef = 315F83151DC04AFB006F9EA3 /* Armature */; };
+		315F83191DC04AFB006F9EA3 /* Armature in Resources */ = {isa = PBXBuildFile; fileRef = 315F83151DC04AFB006F9EA3 /* Armature */; };
+		315F831A1DC04AFB006F9EA3 /* Particles in Resources */ = {isa = PBXBuildFile; fileRef = 315F83161DC04AFB006F9EA3 /* Particles */; };
+		315F831B1DC04AFB006F9EA3 /* Particles in Resources */ = {isa = PBXBuildFile; fileRef = 315F83161DC04AFB006F9EA3 /* Particles */; };
+		315F831C1DC04AFB006F9EA3 /* sound in Resources */ = {isa = PBXBuildFile; fileRef = 315F83171DC04AFB006F9EA3 /* sound */; };
+		315F831D1DC04AFB006F9EA3 /* sound in Resources */ = {isa = PBXBuildFile; fileRef = 315F83171DC04AFB006F9EA3 /* sound */; };
+		315F831F1DC04B11006F9EA3 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 315F831E1DC04B11006F9EA3 /* fonts */; };
+		315F83201DC04B11006F9EA3 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 315F831E1DC04B11006F9EA3 /* fonts */; };
+		315F832C1DC05CA1006F9EA3 /* VisibleRect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315F832A1DC05CA1006F9EA3 /* VisibleRect.cpp */; };
+		315F832D1DC05CA1006F9EA3 /* VisibleRect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315F832A1DC05CA1006F9EA3 /* VisibleRect.cpp */; };
+		3187195B1DC03B5200AC54E1 /* BaseScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 318719591DC03B5200AC54E1 /* BaseScene.cpp */; };
+		3187195C1DC03B5200AC54E1 /* BaseScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 318719591DC03B5200AC54E1 /* BaseScene.cpp */; };
+		31B4AF351DC19DED00C213BE /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 31B4AF221DC19DED00C213BE /* sqlite3.c */; };
+		31B4AF361DC19DED00C213BE /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 31B4AF221DC19DED00C213BE /* sqlite3.c */; };
+		31B4AF371DC19DED00C213BE /* SQLiteDatabase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31B4AF241DC19DED00C213BE /* SQLiteDatabase.cpp */; };
+		31B4AF381DC19DED00C213BE /* SQLiteDatabase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31B4AF241DC19DED00C213BE /* SQLiteDatabase.cpp */; };
+		31B4AF391DC19DED00C213BE /* SQLiteResultSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31B4AF261DC19DED00C213BE /* SQLiteResultSet.cpp */; };
+		31B4AF3A1DC19DED00C213BE /* SQLiteResultSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31B4AF261DC19DED00C213BE /* SQLiteResultSet.cpp */; };
+		31B4AF451DC1A33400C213BE /* FileHelper.h in Sources */ = {isa = PBXBuildFile; fileRef = 31B4AF441DC1A33400C213BE /* FileHelper.h */; };
+		31B4AF461DC1A33400C213BE /* FileHelper.h in Sources */ = {isa = PBXBuildFile; fileRef = 31B4AF441DC1A33400C213BE /* FileHelper.h */; };
+		31B4AF4E1DC1AF5B00C213BE /* FqaLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31B4AF4C1DC1AF5B00C213BE /* FqaLayer.cpp */; };
+		31B4AF4F1DC1AF5B00C213BE /* FqaLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31B4AF4C1DC1AF5B00C213BE /* FqaLayer.cpp */; };
+		31B4AF5A1DC1CEC700C213BE /* TutorialLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31B4AF581DC1CEC700C213BE /* TutorialLayer.cpp */; };
+		31B4AF5B1DC1CEC700C213BE /* TutorialLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31B4AF581DC1CEC700C213BE /* TutorialLayer.cpp */; };
+		31F3976A1DC1F956001B2D39 /* FirstScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31F397661DC1F956001B2D39 /* FirstScene.cpp */; };
+		31F3976B1DC1F956001B2D39 /* FirstScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31F397661DC1F956001B2D39 /* FirstScene.cpp */; };
+		31F3976C1DC1F956001B2D39 /* SplashScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31F397681DC1F956001B2D39 /* SplashScene.cpp */; };
+		31F3976D1DC1F956001B2D39 /* SplashScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31F397681DC1F956001B2D39 /* SplashScene.cpp */; };
+		31F397721DC200D6001B2D39 /* FAQUILayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 31F397711DC200D6001B2D39 /* FAQUILayer.csb */; };
+		31F397731DC200D6001B2D39 /* FAQUILayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 31F397711DC200D6001B2D39 /* FAQUILayer.csb */; };
+		31F397771DC20185001B2D39 /* FirstScene.csb in Resources */ = {isa = PBXBuildFile; fileRef = 31F397741DC20185001B2D39 /* FirstScene.csb */; };
+		31F397781DC20185001B2D39 /* FirstScene.csb in Resources */ = {isa = PBXBuildFile; fileRef = 31F397741DC20185001B2D39 /* FirstScene.csb */; };
+		31F397791DC20185001B2D39 /* FirstUILayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 31F397751DC20185001B2D39 /* FirstUILayer.csb */; };
+		31F3977A1DC20185001B2D39 /* FirstUILayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 31F397751DC20185001B2D39 /* FirstUILayer.csb */; };
+		31F3977B1DC20185001B2D39 /* FlyGirlSkeleton.csb in Resources */ = {isa = PBXBuildFile; fileRef = 31F397761DC20185001B2D39 /* FlyGirlSkeleton.csb */; };
+		31F3977C1DC20185001B2D39 /* FlyGirlSkeleton.csb in Resources */ = {isa = PBXBuildFile; fileRef = 31F397761DC20185001B2D39 /* FlyGirlSkeleton.csb */; };
 		3EACC98F19EE6D4300EB3C5E /* res in Resources */ = {isa = PBXBuildFile; fileRef = 3EACC98E19EE6D4300EB3C5E /* res */; };
 		3EACC99019EE6D4300EB3C5E /* res in Resources */ = {isa = PBXBuildFile; fileRef = 3EACC98E19EE6D4300EB3C5E /* res */; };
 		46880B7B19C43A67006E1F66 /* CloseNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7619C43A67006E1F66 /* CloseNormal.png */; };
@@ -57,8 +147,6 @@
 		50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF62A117ECD613001EB2F8 /* Icon-50.png */; };
 		521A8E6419F0C34300D177D7 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 521A8E6219F0C34300D177D7 /* Default-667h@2x.png */; };
 		521A8E6519F0C34300D177D7 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 521A8E6319F0C34300D177D7 /* Default-736h@3x.png */; };
-		521A8EA919F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
-		521A8EAA19F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
@@ -101,6 +189,13 @@
 			remoteGlobalIDString = A07A4C241783777C0073F6A7;
 			remoteInfo = "cocos2dx iOS";
 		};
+		318719561DC03B2800AC54E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 507B40FD1C31BDD30067B53E;
+			remoteInfo = "libcocos2d tvOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -111,6 +206,62 @@
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		294D0D631D0D56D500F7F5D4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		315F70131DC0476F006F9EA3 /* BonusDlgUILayer.csb */ = {isa = PBXFileReference; lastKnownFileType = file; path = BonusDlgUILayer.csb; sourceTree = "<group>"; };
+		315F70141DC0476F006F9EA3 /* ButterflyArmature_01.csb */ = {isa = PBXFileReference; lastKnownFileType = file; path = ButterflyArmature_01.csb; sourceTree = "<group>"; };
+		315F70151DC0476F006F9EA3 /* ButterflyArmature_02.csb */ = {isa = PBXFileReference; lastKnownFileType = file; path = ButterflyArmature_02.csb; sourceTree = "<group>"; };
+		315F70161DC0476F006F9EA3 /* ButterflyArmature_010.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ButterflyArmature_010.plist; sourceTree = "<group>"; };
+		315F70171DC0476F006F9EA3 /* ButterflyArmature_010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButterflyArmature_010.png; sourceTree = "<group>"; };
+		315F70181DC0476F006F9EA3 /* ButterflyArmature_020.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ButterflyArmature_020.plist; sourceTree = "<group>"; };
+		315F70191DC0476F006F9EA3 /* ButterflyArmature_020.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButterflyArmature_020.png; sourceTree = "<group>"; };
+		315F701A1DC0476F006F9EA3 /* BuyDlgLayer.csb */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuyDlgLayer.csb; sourceTree = "<group>"; };
+		315F701D1DC0476F006F9EA3 /* FirstUI0.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FirstUI0.plist; sourceTree = "<group>"; };
+		315F701E1DC0476F006F9EA3 /* FirstUI0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FirstUI0.png; sourceTree = "<group>"; };
+		315F70211DC0476F006F9EA3 /* ItemsDetailsUILayer.csb */ = {isa = PBXFileReference; lastKnownFileType = file; path = ItemsDetailsUILayer.csb; sourceTree = "<group>"; };
+		315F70221DC0476F006F9EA3 /* LevelUILayer.csb */ = {isa = PBXFileReference; lastKnownFileType = file; path = LevelUILayer.csb; sourceTree = "<group>"; };
+		315F70231DC0476F006F9EA3 /* MainPauseUILayer.csb */ = {isa = PBXFileReference; lastKnownFileType = file; path = MainPauseUILayer.csb; sourceTree = "<group>"; };
+		315F70241DC0476F006F9EA3 /* MainScene.csb */ = {isa = PBXFileReference; lastKnownFileType = file; path = MainScene.csb; sourceTree = "<group>"; };
+		315F70251DC0476F006F9EA3 /* MainToolbarUILayer.csb */ = {isa = PBXFileReference; lastKnownFileType = file; path = MainToolbarUILayer.csb; sourceTree = "<group>"; };
+		315F70261DC0476F006F9EA3 /* PackUILayer.csb */ = {isa = PBXFileReference; lastKnownFileType = file; path = PackUILayer.csb; sourceTree = "<group>"; };
+		315F70271DC0476F006F9EA3 /* RoundUILayer.csb */ = {isa = PBXFileReference; lastKnownFileType = file; path = RoundUILayer.csb; sourceTree = "<group>"; };
+		315F70281DC0476F006F9EA3 /* SimpleContinueUILayer.csb */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleContinueUILayer.csb; sourceTree = "<group>"; };
+		315F70291DC0476F006F9EA3 /* SplashAnimationSkeleton.csb */ = {isa = PBXFileReference; lastKnownFileType = file; path = SplashAnimationSkeleton.csb; sourceTree = "<group>"; };
+		315F702A1DC0476F006F9EA3 /* SplashUILayer.csb */ = {isa = PBXFileReference; lastKnownFileType = file; path = SplashUILayer.csb; sourceTree = "<group>"; };
+		315F702B1DC0476F006F9EA3 /* StoreUI_GoLayer.csb */ = {isa = PBXFileReference; lastKnownFileType = file; path = StoreUI_GoLayer.csb; sourceTree = "<group>"; };
+		315F702C1DC0476F006F9EA3 /* StoreUILayer.csb */ = {isa = PBXFileReference; lastKnownFileType = file; path = StoreUILayer.csb; sourceTree = "<group>"; };
+		315F702D1DC0476F006F9EA3 /* SummaryUILayer.csb */ = {isa = PBXFileReference; lastKnownFileType = file; path = SummaryUILayer.csb; sourceTree = "<group>"; };
+		315F702E1DC0476F006F9EA3 /* Thumbelina.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbelina.sqlite; sourceTree = "<group>"; };
+		315F702F1DC0476F006F9EA3 /* TUTUILayer.csb */ = {isa = PBXFileReference; lastKnownFileType = file; path = TUTUILayer.csb; sourceTree = "<group>"; };
+		315F830F1DC04A34006F9EA3 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		315F83121DC04AEF006F9EA3 /* Animations */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Animations; sourceTree = "<group>"; };
+		315F83151DC04AFB006F9EA3 /* Armature */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Armature; sourceTree = "<group>"; };
+		315F83161DC04AFB006F9EA3 /* Particles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Particles; sourceTree = "<group>"; };
+		315F83171DC04AFB006F9EA3 /* sound */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sound; sourceTree = "<group>"; };
+		315F831E1DC04B11006F9EA3 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		315F83291DC05C8D006F9EA3 /* zxzToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zxzToast.h; sourceTree = "<group>"; };
+		315F832A1DC05CA1006F9EA3 /* VisibleRect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VisibleRect.cpp; sourceTree = "<group>"; };
+		315F832B1DC05CA1006F9EA3 /* VisibleRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisibleRect.h; sourceTree = "<group>"; };
+		318719591DC03B5200AC54E1 /* BaseScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseScene.cpp; sourceTree = "<group>"; };
+		3187195A1DC03B5200AC54E1 /* BaseScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseScene.h; sourceTree = "<group>"; };
+		31B4AF221DC19DED00C213BE /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqlite3.c; sourceTree = "<group>"; };
+		31B4AF231DC19DED00C213BE /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
+		31B4AF241DC19DED00C213BE /* SQLiteDatabase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SQLiteDatabase.cpp; sourceTree = "<group>"; };
+		31B4AF251DC19DED00C213BE /* SQLiteDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteDatabase.h; sourceTree = "<group>"; };
+		31B4AF261DC19DED00C213BE /* SQLiteResultSet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SQLiteResultSet.cpp; sourceTree = "<group>"; };
+		31B4AF271DC19DED00C213BE /* SQLiteResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteResultSet.h; sourceTree = "<group>"; };
+		31B4AF281DC19DED00C213BE /* SQLiteValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteValue.h; sourceTree = "<group>"; };
+		31B4AF441DC1A33400C213BE /* FileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHelper.h; sourceTree = "<group>"; };
+		31B4AF4C1DC1AF5B00C213BE /* FqaLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FqaLayer.cpp; sourceTree = "<group>"; };
+		31B4AF4D1DC1AF5B00C213BE /* FqaLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FqaLayer.h; sourceTree = "<group>"; };
+		31B4AF581DC1CEC700C213BE /* TutorialLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TutorialLayer.cpp; sourceTree = "<group>"; };
+		31B4AF591DC1CEC700C213BE /* TutorialLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialLayer.h; sourceTree = "<group>"; };
+		31F397661DC1F956001B2D39 /* FirstScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FirstScene.cpp; sourceTree = "<group>"; };
+		31F397671DC1F956001B2D39 /* FirstScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstScene.h; sourceTree = "<group>"; };
+		31F397681DC1F956001B2D39 /* SplashScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SplashScene.cpp; sourceTree = "<group>"; };
+		31F397691DC1F956001B2D39 /* SplashScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScene.h; sourceTree = "<group>"; };
+		31F397711DC200D6001B2D39 /* FAQUILayer.csb */ = {isa = PBXFileReference; lastKnownFileType = file; path = FAQUILayer.csb; sourceTree = "<group>"; };
+		31F397741DC20185001B2D39 /* FirstScene.csb */ = {isa = PBXFileReference; lastKnownFileType = file; path = FirstScene.csb; sourceTree = "<group>"; };
+		31F397751DC20185001B2D39 /* FirstUILayer.csb */ = {isa = PBXFileReference; lastKnownFileType = file; path = FirstUILayer.csb; sourceTree = "<group>"; };
+		31F397761DC20185001B2D39 /* FlyGirlSkeleton.csb */ = {isa = PBXFileReference; lastKnownFileType = file; path = FlyGirlSkeleton.csb; sourceTree = "<group>"; };
 		3EACC98E19EE6D4300EB3C5E /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
 		46880B7619C43A67006E1F66 /* CloseNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseNormal.png; sourceTree = "<group>"; };
 		46880B7719C43A67006E1F66 /* CloseSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseSelected.png; sourceTree = "<group>"; };
@@ -153,7 +304,6 @@
 		50EF62A117ECD613001EB2F8 /* Icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50.png"; sourceTree = "<group>"; };
 		521A8E6219F0C34300D177D7 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
 		521A8E6319F0C34300D177D7 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
-		521A8EA819F11F5000D177D7 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -240,6 +390,7 @@
 			children = (
 				1AC6FAF9180E9839004C840B /* libcocos2d Mac.a */,
 				1AC6FB07180E9839004C840B /* libcocos2d iOS.a */,
+				318719571DC03B2800AC54E1 /* libcocos2d tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -285,10 +436,94 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		318719541DC03B2800AC54E1 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				315F832A1DC05CA1006F9EA3 /* VisibleRect.cpp */,
+				315F832B1DC05CA1006F9EA3 /* VisibleRect.h */,
+				315F83291DC05C8D006F9EA3 /* zxzToast.h */,
+				318719591DC03B5200AC54E1 /* BaseScene.cpp */,
+				3187195A1DC03B5200AC54E1 /* BaseScene.h */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		31B4AF211DC19DED00C213BE /* SQLiteDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				31B4AF221DC19DED00C213BE /* sqlite3.c */,
+				31B4AF231DC19DED00C213BE /* sqlite3.h */,
+				31B4AF241DC19DED00C213BE /* SQLiteDatabase.cpp */,
+				31B4AF251DC19DED00C213BE /* SQLiteDatabase.h */,
+				31B4AF261DC19DED00C213BE /* SQLiteResultSet.cpp */,
+				31B4AF271DC19DED00C213BE /* SQLiteResultSet.h */,
+				31B4AF281DC19DED00C213BE /* SQLiteValue.h */,
+			);
+			path = SQLiteDatabase;
+			sourceTree = "<group>";
+		};
+		31B4AF431DC1A32400C213BE /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				31B4AF441DC1A33400C213BE /* FileHelper.h */,
+			);
+			name = helper;
+			path = hepler;
+			sourceTree = "<group>";
+		};
+		31B4AF4B1DC1AF5000C213BE /* layer */ = {
+			isa = PBXGroup;
+			children = (
+				31F397661DC1F956001B2D39 /* FirstScene.cpp */,
+				31F397671DC1F956001B2D39 /* FirstScene.h */,
+				31F397681DC1F956001B2D39 /* SplashScene.cpp */,
+				31F397691DC1F956001B2D39 /* SplashScene.h */,
+				31B4AF4C1DC1AF5B00C213BE /* FqaLayer.cpp */,
+				31B4AF4D1DC1AF5B00C213BE /* FqaLayer.h */,
+				31B4AF581DC1CEC700C213BE /* TutorialLayer.cpp */,
+				31B4AF591DC1CEC700C213BE /* TutorialLayer.h */,
+			);
+			path = layer;
+			sourceTree = "<group>";
+		};
 		46880B7519C43A67006E1F66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				521A8EA819F11F5000D177D7 /* fonts */,
+				315F831E1DC04B11006F9EA3 /* fonts */,
+				315F83151DC04AFB006F9EA3 /* Armature */,
+				315F83161DC04AFB006F9EA3 /* Particles */,
+				315F83171DC04AFB006F9EA3 /* sound */,
+				315F83121DC04AEF006F9EA3 /* Animations */,
+				315F830F1DC04A34006F9EA3 /* Images */,
+				315F70131DC0476F006F9EA3 /* BonusDlgUILayer.csb */,
+				315F70141DC0476F006F9EA3 /* ButterflyArmature_01.csb */,
+				315F70151DC0476F006F9EA3 /* ButterflyArmature_02.csb */,
+				315F70161DC0476F006F9EA3 /* ButterflyArmature_010.plist */,
+				315F70171DC0476F006F9EA3 /* ButterflyArmature_010.png */,
+				315F70181DC0476F006F9EA3 /* ButterflyArmature_020.plist */,
+				315F70191DC0476F006F9EA3 /* ButterflyArmature_020.png */,
+				315F701A1DC0476F006F9EA3 /* BuyDlgLayer.csb */,
+				31F397741DC20185001B2D39 /* FirstScene.csb */,
+				31F397751DC20185001B2D39 /* FirstUILayer.csb */,
+				31F397761DC20185001B2D39 /* FlyGirlSkeleton.csb */,
+				315F701D1DC0476F006F9EA3 /* FirstUI0.plist */,
+				315F701E1DC0476F006F9EA3 /* FirstUI0.png */,
+				31F397711DC200D6001B2D39 /* FAQUILayer.csb */,
+				315F70211DC0476F006F9EA3 /* ItemsDetailsUILayer.csb */,
+				315F70221DC0476F006F9EA3 /* LevelUILayer.csb */,
+				315F70231DC0476F006F9EA3 /* MainPauseUILayer.csb */,
+				315F70241DC0476F006F9EA3 /* MainScene.csb */,
+				315F70251DC0476F006F9EA3 /* MainToolbarUILayer.csb */,
+				315F70261DC0476F006F9EA3 /* PackUILayer.csb */,
+				315F70271DC0476F006F9EA3 /* RoundUILayer.csb */,
+				315F70281DC0476F006F9EA3 /* SimpleContinueUILayer.csb */,
+				315F70291DC0476F006F9EA3 /* SplashAnimationSkeleton.csb */,
+				315F702A1DC0476F006F9EA3 /* SplashUILayer.csb */,
+				315F702B1DC0476F006F9EA3 /* StoreUI_GoLayer.csb */,
+				315F702C1DC0476F006F9EA3 /* StoreUILayer.csb */,
+				315F702D1DC0476F006F9EA3 /* SummaryUILayer.csb */,
+				315F702E1DC0476F006F9EA3 /* Thumbelina.sqlite */,
+				315F702F1DC0476F006F9EA3 /* TUTUILayer.csb */,
 				3EACC98E19EE6D4300EB3C5E /* res */,
 				46880B7619C43A67006E1F66 /* CloseNormal.png */,
 				46880B7719C43A67006E1F66 /* CloseSelected.png */,
@@ -301,6 +536,10 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				31B4AF4B1DC1AF5000C213BE /* layer */,
+				31B4AF431DC1A32400C213BE /* helper */,
+				31B4AF211DC19DED00C213BE /* SQLiteDatabase */,
+				318719541DC03B2800AC54E1 /* base */,
 				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
 				46880B8519C43A87006E1F66 /* AppDelegate.h */,
 				46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */,
@@ -445,6 +684,13 @@
 			remoteRef = 1AC6FB06180E9839004C840B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		318719571DC03B2800AC54E1 /* libcocos2d tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libcocos2d tvOS.a";
+			remoteRef = 318719561DC03B2800AC54E1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -452,29 +698,63 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				315F831A1DC04AFB006F9EA3 /* Particles in Resources */,
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
+				315F831F1DC04B11006F9EA3 /* fonts in Resources */,
+				315F831C1DC04AFB006F9EA3 /* sound in Resources */,
+				315F70501DC0476F006F9EA3 /* MainPauseUILayer.csb in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
+				315F705C1DC0476F006F9EA3 /* SplashAnimationSkeleton.csb in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
+				315F704E1DC0476F006F9EA3 /* LevelUILayer.csb in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
+				315F70461DC0476F006F9EA3 /* FirstUI0.png in Resources */,
+				315F703A1DC0476F006F9EA3 /* ButterflyArmature_020.plist in Resources */,
+				315F70321DC0476F006F9EA3 /* ButterflyArmature_01.csb in Resources */,
+				315F70381DC0476F006F9EA3 /* ButterflyArmature_010.png in Resources */,
 				46880B8119C43A67006E1F66 /* HelloWorld.png in Resources */,
+				315F83101DC04A34006F9EA3 /* Images in Resources */,
+				31F397791DC20185001B2D39 /* FirstUILayer.csb in Resources */,
+				315F70601DC0476F006F9EA3 /* StoreUI_GoLayer.csb in Resources */,
 				46880B7D19C43A67006E1F66 /* CloseSelected.png in Resources */,
+				315F70361DC0476F006F9EA3 /* ButterflyArmature_010.plist in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
+				315F70641DC0476F006F9EA3 /* SummaryUILayer.csb in Resources */,
+				315F70341DC0476F006F9EA3 /* ButterflyArmature_02.csb in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
+				315F70441DC0476F006F9EA3 /* FirstUI0.plist in Resources */,
+				315F70661DC0476F006F9EA3 /* Thumbelina.sqlite in Resources */,
 				521A8E6519F0C34300D177D7 /* Default-736h@3x.png in Resources */,
-				521A8EA919F11F5000D177D7 /* fonts in Resources */,
+				315F70681DC0476F006F9EA3 /* TUTUILayer.csb in Resources */,
+				315F70521DC0476F006F9EA3 /* MainScene.csb in Resources */,
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
+				315F70621DC0476F006F9EA3 /* StoreUILayer.csb in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
+				315F70301DC0476F006F9EA3 /* BonusDlgUILayer.csb in Resources */,
+				31F397721DC200D6001B2D39 /* FAQUILayer.csb in Resources */,
+				315F70541DC0476F006F9EA3 /* MainToolbarUILayer.csb in Resources */,
+				315F70561DC0476F006F9EA3 /* PackUILayer.csb in Resources */,
+				31F397771DC20185001B2D39 /* FirstScene.csb in Resources */,
+				315F70581DC0476F006F9EA3 /* RoundUILayer.csb in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
+				315F83181DC04AFB006F9EA3 /* Armature in Resources */,
+				315F703C1DC0476F006F9EA3 /* ButterflyArmature_020.png in Resources */,
 				5087E78217EB970100C73F5D /* Icon-144.png in Resources */,
 				3EACC98F19EE6D4300EB3C5E /* res in Resources */,
+				315F705E1DC0476F006F9EA3 /* SplashUILayer.csb in Resources */,
+				315F703E1DC0476F006F9EA3 /* BuyDlgLayer.csb in Resources */,
 				50EF629817ECD46A001EB2F8 /* Icon-80.png in Resources */,
+				315F83131DC04AEF006F9EA3 /* Animations in Resources */,
 				5087E78417EB970100C73F5D /* Icon-57.png in Resources */,
+				315F705A1DC0476F006F9EA3 /* SimpleContinueUILayer.csb in Resources */,
 				5087E77E17EB970100C73F5D /* Default.png in Resources */,
 				521A8E6419F0C34300D177D7 /* Default-667h@2x.png in Resources */,
 				46880B7B19C43A67006E1F66 /* CloseNormal.png in Resources */,
+				31F3977B1DC20185001B2D39 /* FlyGirlSkeleton.csb in Resources */,
 				50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */,
+				315F704C1DC0476F006F9EA3 /* ItemsDetailsUILayer.csb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,12 +762,46 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				315F70611DC0476F006F9EA3 /* StoreUI_GoLayer.csb in Resources */,
+				315F704D1DC0476F006F9EA3 /* ItemsDetailsUILayer.csb in Resources */,
 				46880B8219C43A67006E1F66 /* HelloWorld.png in Resources */,
+				315F70311DC0476F006F9EA3 /* BonusDlgUILayer.csb in Resources */,
+				315F70391DC0476F006F9EA3 /* ButterflyArmature_010.png in Resources */,
+				315F70371DC0476F006F9EA3 /* ButterflyArmature_010.plist in Resources */,
+				315F704F1DC0476F006F9EA3 /* LevelUILayer.csb in Resources */,
+				315F70591DC0476F006F9EA3 /* RoundUILayer.csb in Resources */,
+				315F70551DC0476F006F9EA3 /* MainToolbarUILayer.csb in Resources */,
+				315F831B1DC04AFB006F9EA3 /* Particles in Resources */,
+				315F83141DC04AEF006F9EA3 /* Animations in Resources */,
 				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
+				315F705B1DC0476F006F9EA3 /* SimpleContinueUILayer.csb in Resources */,
+				315F83191DC04AFB006F9EA3 /* Armature in Resources */,
+				315F70471DC0476F006F9EA3 /* FirstUI0.png in Resources */,
+				31F3977C1DC20185001B2D39 /* FlyGirlSkeleton.csb in Resources */,
+				315F70351DC0476F006F9EA3 /* ButterflyArmature_02.csb in Resources */,
+				315F83111DC04A34006F9EA3 /* Images in Resources */,
+				315F70691DC0476F006F9EA3 /* TUTUILayer.csb in Resources */,
+				315F70631DC0476F006F9EA3 /* StoreUILayer.csb in Resources */,
+				315F705D1DC0476F006F9EA3 /* SplashAnimationSkeleton.csb in Resources */,
+				31F397731DC200D6001B2D39 /* FAQUILayer.csb in Resources */,
 				3EACC99019EE6D4300EB3C5E /* res in Resources */,
-				521A8EAA19F11F5000D177D7 /* fonts in Resources */,
+				31F397781DC20185001B2D39 /* FirstScene.csb in Resources */,
+				315F70651DC0476F006F9EA3 /* SummaryUILayer.csb in Resources */,
+				315F70451DC0476F006F9EA3 /* FirstUI0.plist in Resources */,
+				315F70511DC0476F006F9EA3 /* MainPauseUILayer.csb in Resources */,
+				315F70531DC0476F006F9EA3 /* MainScene.csb in Resources */,
+				315F705F1DC0476F006F9EA3 /* SplashUILayer.csb in Resources */,
+				315F703F1DC0476F006F9EA3 /* BuyDlgLayer.csb in Resources */,
+				315F70331DC0476F006F9EA3 /* ButterflyArmature_01.csb in Resources */,
+				315F83201DC04B11006F9EA3 /* fonts in Resources */,
 				46880B7C19C43A67006E1F66 /* CloseNormal.png in Resources */,
 				46880B7E19C43A67006E1F66 /* CloseSelected.png in Resources */,
+				315F70571DC0476F006F9EA3 /* PackUILayer.csb in Resources */,
+				315F70671DC0476F006F9EA3 /* Thumbelina.sqlite in Resources */,
+				315F703B1DC0476F006F9EA3 /* ButterflyArmature_020.plist in Resources */,
+				315F703D1DC0476F006F9EA3 /* ButterflyArmature_020.png in Resources */,
+				31F3977A1DC20185001B2D39 /* FirstUILayer.csb in Resources */,
+				315F831D1DC04AFB006F9EA3 /* sound in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,9 +812,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31B4AF451DC1A33400C213BE /* FileHelper.h in Sources */,
+				31F3976C1DC1F956001B2D39 /* SplashScene.cpp in Sources */,
+				31B4AF4E1DC1AF5B00C213BE /* FqaLayer.cpp in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				31B4AF351DC19DED00C213BE /* sqlite3.c in Sources */,
+				315F832C1DC05CA1006F9EA3 /* VisibleRect.cpp in Sources */,
+				31F3976A1DC1F956001B2D39 /* FirstScene.cpp in Sources */,
+				31B4AF5A1DC1CEC700C213BE /* TutorialLayer.cpp in Sources */,
+				31B4AF391DC19DED00C213BE /* SQLiteResultSet.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
+				31B4AF371DC19DED00C213BE /* SQLiteDatabase.cpp in Sources */,
+				3187195B1DC03B5200AC54E1 /* BaseScene.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 			);
@@ -511,8 +835,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				31B4AF4F1DC1AF5B00C213BE /* FqaLayer.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
+				3187195C1DC03B5200AC54E1 /* BaseScene.cpp in Sources */,
+				31F3976B1DC1F956001B2D39 /* FirstScene.cpp in Sources */,
+				31B4AF381DC19DED00C213BE /* SQLiteDatabase.cpp in Sources */,
+				31B4AF3A1DC19DED00C213BE /* SQLiteResultSet.cpp in Sources */,
+				31B4AF361DC19DED00C213BE /* sqlite3.c in Sources */,
+				31B4AF5B1DC1CEC700C213BE /* TutorialLayer.cpp in Sources */,
+				31F3976D1DC1F956001B2D39 /* SplashScene.cpp in Sources */,
+				31B4AF461DC1A33400C213BE /* FileHelper.h in Sources */,
+				315F832D1DC05CA1006F9EA3 /* VisibleRect.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,7 +885,7 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ios/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = (
 					"$(_COCOS_LIB_IOS_BEGIN)",
@@ -582,7 +916,7 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ios/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = (
 					"$(_COCOS_LIB_IOS_BEGIN)",

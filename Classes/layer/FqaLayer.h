@@ -21,9 +21,16 @@ using namespace ui;
 using namespace cocostudio;
 using namespace cocostudio::timeline;
 
+using namespace std;
 
 
-class FqaLayer :public Layer {
+
+#include "TutorialLayer.h"
+
+#include "FirstScene.h"
+
+
+class FqaLayer :public Layer{
 
 public:
     CREATE_FUNC(FqaLayer);
@@ -38,13 +45,23 @@ public:
     void onClick(Ref *sender);
 
     void initThings();
-
+    
+    void setPageContent(int currentNum);
+    
+    
 
 public:
     Size visibleSize;
     Director *director;
     Vec2 visibleOrigin;
     Node *_rootLayer;
+    Layout *_rootLayout;
+    
+    
+private:
+    Text *text_q;
+    Text *text_a;
+    Text *text_number;
 
 };
 

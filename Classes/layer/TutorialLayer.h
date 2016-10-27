@@ -17,6 +17,7 @@ USING_NS_CC;
 #include "editor-support/cocostudio/CocoStudio.h"
 #include "ui/CocosGUI.h"
 
+#include "FqaLayer.h"
 using namespace ui;
 using namespace cocostudio;
 using namespace cocostudio::timeline;
