@@ -1,1 +1,5 @@
 /cocos2d
+/proj.android-studio/build
+/proj.android-studio/app/build
+/proj.android-studio/app/libs
+/proj.android-studio/app/obj
