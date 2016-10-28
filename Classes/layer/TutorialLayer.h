@@ -40,6 +40,9 @@ public:
 
     void initThings();
 
+public:
+    
+    void addCards();
 
 public:
     Size visibleSize;
@@ -47,7 +50,16 @@ public:
     Vec2 visibleOrigin;
     Node *_rootLayer;
     Layout *_rootLayout;
-
+    
+protected:
+    Sprite* _cardSprite[16];
+    
+    ImageView *img_1;
+    ImageView *img_2;
+    ImageView *img_3;
+    ImageView *img_4;
+    
+    
 };
 
 

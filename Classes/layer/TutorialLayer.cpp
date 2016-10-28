@@ -80,18 +80,16 @@ void TutorialLayer::onCreateGameLayer(){
    }
    addChild(_rootLayer);
    _rootLayout=static_cast<Layout *>(_rootLayer->getChildByName("Panel_Back"));
-   
-    
  
     auto btn_ret=static_cast<Button *>(_rootLayout->getChildByName("Button_Ret"));
     btn_ret->addClickEventListener([this](Ref *sender){
         director->replaceScene(TransitionPageTurn::create(1.0f, FqaLayer::createScene(),true));
-        
     });
     
     
     
-
+    
+//    addCards();
 
 }
 
@@ -113,6 +111,50 @@ void TutorialLayer::onClick(Ref *sender){
   }
 
 
+}
+
+void TutorialLayer::addCards(){
+    
+    for (int i=0; i<16; i++) {
+        _cardSprite[i]=Sprite::create(pImageCards[i]);
+        _cardSprite[i]->retain();
+        _rootLayer->addChild(_cardSprite[i],48,2000+i);
+        _cardSprite[i]->setPosition(Vec2(visibleSize.width/2,visibleSize.height-30));
+    }
+    
+    
+   
+    
+//    img_1=static_cast<ImageView *>(_rootLayout->getChildByName("Bottom_P_01"));
+//    img_2=static_cast<ImageView *>(_rootLayout->getChildByName("Bottom_P_02"));
+//    img_3=static_cast<ImageView *>(_rootLayout->getChildByName("Bottom_P_03"));
+//    img_4=static_cast<ImageView *>(_rootLayout->getChildByName("Bottom_P_04"));
+//    
+//    img_4->getPosition();
+    
+//    float x[4]{img_1->getWorldPosition().x,img_2->getWorldPosition().x,img_3->getWorldPosition().x,img_4->getWorldPosition().x};
+//    float y=img_1->getWorldPosition().y;
+    
+    
+    
+//    Vector<FiniteTimeAction *> actions;
+//    int pos=0;
+//    for (int i=0; i<4; i++) {
+//        for (int j=0; j<4; j++) {
+//            pos++;
+//            log("%d",pos);
+//            
+////            auto actionMove=MoveTo::create(0.2f, Vec2(x[i],y));
+//            
+//            
+//            
+//            
+//            
+//            
+//        }
+//    }
+    
+    
 }
 
 
