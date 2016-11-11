@@ -64,10 +64,6 @@ const char* pImageCards[16]={
 };
 
 
-
-
-
-
 void TutorialLayer::initThings() {
 
 
@@ -87,7 +83,31 @@ void TutorialLayer::onCreateGameLayer(){
     });
     
     
+    std::vector<std::string> headers;
     
+    HttpRequest *request=new HttpRequest();
+    request->setUrl("http://localhost/public/api/user/login");
+//    request->setHeaders(headers);
+    
+    request->setRequestType(HttpRequest::Type::POST);
+    
+    std::string postData;
+    
+    postData="phone=18354450969&pwd=123456";
+    request->setRequestData(postData.c_str(),strlen(postData.c_str()));
+    
+    request->setResponseCallback([](HttpClient* client, HttpResponse* response){
+      auto charData=  response->getResponseData();
+        
+        std::string res;
+        
+        for (int i=0; i<charData->size(); i++) {
+            res+=(* charData)[i];
+        }
+       printf("%s",res.c_str());
+        
+    });
+    HttpClient::getInstance()->send(request);
     
 //    addCards();
 

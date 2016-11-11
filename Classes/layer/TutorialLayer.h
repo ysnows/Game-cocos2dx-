@@ -18,10 +18,13 @@ USING_NS_CC;
 #include "ui/CocosGUI.h"
 
 #include "FqaLayer.h"
+
+#include "network/HttpClient.h"
+using namespace network;
+
 using namespace ui;
 using namespace cocostudio;
 using namespace cocostudio::timeline;
-
 
 
 class TutorialLayer :public Layer {
