@@ -13,6 +13,12 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		294D0D641D0D56D500F7F5D4 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294D0D631D0D56D500F7F5D4 /* CoreText.framework */; };
+		311CCE211DD6E377008D4D74 /* ODSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 311CCE1A1DD6E377008D4D74 /* ODSocket.cpp */; };
+		311CCE221DD6E377008D4D74 /* ODSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 311CCE1A1DD6E377008D4D74 /* ODSocket.cpp */; };
+		311CCE231DD6E377008D4D74 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 311CCE1C1DD6E377008D4D74 /* README.md */; };
+		311CCE241DD6E377008D4D74 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 311CCE1C1DD6E377008D4D74 /* README.md */; };
+		311CCE251DD6E377008D4D74 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 311CCE1D1DD6E377008D4D74 /* stdafx.cpp */; };
+		311CCE261DD6E377008D4D74 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 311CCE1D1DD6E377008D4D74 /* stdafx.cpp */; };
 		315F70301DC0476F006F9EA3 /* BonusDlgUILayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F70131DC0476F006F9EA3 /* BonusDlgUILayer.csb */; };
 		315F70311DC0476F006F9EA3 /* BonusDlgUILayer.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F70131DC0476F006F9EA3 /* BonusDlgUILayer.csb */; };
 		315F70321DC0476F006F9EA3 /* ButterflyArmature_01.csb in Resources */ = {isa = PBXBuildFile; fileRef = 315F70141DC0476F006F9EA3 /* ButterflyArmature_01.csb */; };
@@ -206,6 +212,13 @@
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		294D0D631D0D56D500F7F5D4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		311CCE1A1DD6E377008D4D74 /* ODSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ODSocket.cpp; sourceTree = "<group>"; };
+		311CCE1B1DD6E377008D4D74 /* ODSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODSocket.h; sourceTree = "<group>"; };
+		311CCE1C1DD6E377008D4D74 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		311CCE1D1DD6E377008D4D74 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stdafx.cpp; sourceTree = "<group>"; };
+		311CCE1E1DD6E377008D4D74 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
+		311CCE1F1DD6E377008D4D74 /* targetver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = targetver.h; sourceTree = "<group>"; };
+		311CCE201DD6E377008D4D74 /* tchar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tchar.h; sourceTree = "<group>"; };
 		315F70131DC0476F006F9EA3 /* BonusDlgUILayer.csb */ = {isa = PBXFileReference; lastKnownFileType = file; path = BonusDlgUILayer.csb; sourceTree = "<group>"; };
 		315F70141DC0476F006F9EA3 /* ButterflyArmature_01.csb */ = {isa = PBXFileReference; lastKnownFileType = file; path = ButterflyArmature_01.csb; sourceTree = "<group>"; };
 		315F70151DC0476F006F9EA3 /* ButterflyArmature_02.csb */ = {isa = PBXFileReference; lastKnownFileType = file; path = ButterflyArmature_02.csb; sourceTree = "<group>"; };
@@ -436,6 +449,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		311CCE191DD6E377008D4D74 /* ODSocket */ = {
+			isa = PBXGroup;
+			children = (
+				311CCE1A1DD6E377008D4D74 /* ODSocket.cpp */,
+				311CCE1B1DD6E377008D4D74 /* ODSocket.h */,
+				311CCE1C1DD6E377008D4D74 /* README.md */,
+				311CCE1D1DD6E377008D4D74 /* stdafx.cpp */,
+				311CCE1E1DD6E377008D4D74 /* stdafx.h */,
+				311CCE1F1DD6E377008D4D74 /* targetver.h */,
+				311CCE201DD6E377008D4D74 /* tchar.h */,
+			);
+			path = ODSocket;
+			sourceTree = "<group>";
+		};
 		318719541DC03B2800AC54E1 /* base */ = {
 			isa = PBXGroup;
 			children = (
@@ -536,6 +563,7 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				311CCE191DD6E377008D4D74 /* ODSocket */,
 				31B4AF4B1DC1AF5000C213BE /* layer */,
 				31B4AF431DC1A32400C213BE /* helper */,
 				31B4AF211DC19DED00C213BE /* SQLiteDatabase */,
@@ -821,7 +849,10 @@
 				31F3976A1DC1F956001B2D39 /* FirstScene.cpp in Sources */,
 				31B4AF5A1DC1CEC700C213BE /* TutorialLayer.cpp in Sources */,
 				31B4AF391DC19DED00C213BE /* SQLiteResultSet.cpp in Sources */,
+				311CCE251DD6E377008D4D74 /* stdafx.cpp in Sources */,
+				311CCE211DD6E377008D4D74 /* ODSocket.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
+				311CCE231DD6E377008D4D74 /* README.md in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				31B4AF371DC19DED00C213BE /* SQLiteDatabase.cpp in Sources */,
 				3187195B1DC03B5200AC54E1 /* BaseScene.cpp in Sources */,
@@ -839,12 +870,15 @@
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 				3187195C1DC03B5200AC54E1 /* BaseScene.cpp in Sources */,
+				311CCE261DD6E377008D4D74 /* stdafx.cpp in Sources */,
 				31F3976B1DC1F956001B2D39 /* FirstScene.cpp in Sources */,
 				31B4AF381DC19DED00C213BE /* SQLiteDatabase.cpp in Sources */,
+				311CCE221DD6E377008D4D74 /* ODSocket.cpp in Sources */,
 				31B4AF3A1DC19DED00C213BE /* SQLiteResultSet.cpp in Sources */,
 				31B4AF361DC19DED00C213BE /* sqlite3.c in Sources */,
 				31B4AF5B1DC1CEC700C213BE /* TutorialLayer.cpp in Sources */,
 				31F3976D1DC1F956001B2D39 /* SplashScene.cpp in Sources */,
+				311CCE241DD6E377008D4D74 /* README.md in Sources */,
 				31B4AF461DC1A33400C213BE /* FileHelper.h in Sources */,
 				315F832D1DC05CA1006F9EA3 /* VisibleRect.cpp in Sources */,
 			);

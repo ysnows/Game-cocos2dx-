@@ -79,39 +79,98 @@ void TutorialLayer::onCreateGameLayer(){
  
     auto btn_ret=static_cast<Button *>(_rootLayout->getChildByName("Button_Ret"));
     btn_ret->addClickEventListener([this](Ref *sender){
-        director->replaceScene(TransitionPageTurn::create(1.0f, FqaLayer::createScene(),true));
+//        director->replaceScene(TransitionPageTurn::create(1.0f, FqaLayer::createScene(),true));
+//        client->send("{'action':'exit'}");
+//        string content="{\"action\":\"exit\"}";
+//        auto count= socket.Send(content.c_str(), strlen(content.c_str()));
+//        log("count:%d",count);
+//        client->disconnect();
+        
+        
+         socket.Send("login", 5);
+        
+        
+//        std::vector<std::string> headers;
+//        HttpRequest *request=new HttpRequest();
+//        request->setUrl("http://localhost/public/api/user/getUserInfo");
+//        headers.push_back("uid:1");
+//        request->setHeaders(headers);
+//        request->setRequestType(HttpRequest::Type::GET);
+        
+//        std::string postData;
+//        postData="phone=18354450969&pwd=123456";
+//        request->setRequestData(postData.c_str(),strlen(postData.c_str()));
+        
+//        request->setResponseCallback([](HttpClient* client, HttpResponse* response){
+//            auto charData=  response->getResponseData();
+//            std::string res;
+//            for (int i=0; i<charData->size(); i++) {
+//                res+=(* charData)[i];
+//            }
+//            printf("%s",res.c_str());
+//            
+//        });
+//        HttpClient::getInstance()->send(request);
+        
     });
     
+//    client=SocketIO::connect("ws://127.0.0.1:3001", *this);
+//    client->on("testEvent", CC_CALLBACK_2(TutorialLayer::testevent, this));
     
-    std::vector<std::string> headers;
+//  addCards();
+    connectServer();
     
-    HttpRequest *request=new HttpRequest();
-    request->setUrl("http://localhost/public/api/user/login");
-//    request->setHeaders(headers);
-    
-    request->setRequestType(HttpRequest::Type::POST);
-    
-    std::string postData;
-    
-    postData="phone=18354450969&pwd=123456";
-    request->setRequestData(postData.c_str(),strlen(postData.c_str()));
-    
-    request->setResponseCallback([](HttpClient* client, HttpResponse* response){
-      auto charData=  response->getResponseData();
-        
-        std::string res;
-        
-        for (int i=0; i<charData->size(); i++) {
-            res+=(* charData)[i];
-        }
-       printf("%s",res.c_str());
-        
-    });
-    HttpClient::getInstance()->send(request);
-    
-//    addCards();
-
 }
+
+
+
+// Socker连接
+void TutorialLayer::connectServer()
+{
+    // 初始化
+    // ODSocket socket;
+    socket.Init();
+    socket.Create(AF_INET, SOCK_STREAM, 0);
+    
+    // 设置服务器的IP地址，端口号
+    // 并连接服务器 Connect
+    const char* ip = "127.0.0.1";
+    int port = 3012;
+    bool result = socket.Connect(ip, port);
+    
+    // 发送数据 Send
+    string content="{\"action\":\"exit\"}";
+    auto count= socket.Send(content.c_str(), strlen(content.c_str()));
+    
+    if (result) {
+        CCLOG("connect to server success!");
+        // 开启新线程，在子线程中，接收数据
+        std::thread recvThread = std::thread(&TutorialLayer::receiveData, this);
+        recvThread.detach(); // 从主线程分离
+    }
+    else {
+        CCLOG("can not connect to server");
+        return;
+    }
+}
+
+// 接收数据
+void TutorialLayer::receiveData()
+{
+    // 因为是强联网
+    // 所以可以一直检测服务端是否有数据传来
+    while (true) {
+        // 接收数据 Recv
+        char data[512] = "";
+        int result = socket.Recv(data, 512, 0);
+        // 与服务器的连接断开了
+        if (result <= 0) break;
+        CCLOG("%s", data);
+    }
+    // 关闭连接
+    socket.Close();
+}
+
 
 
 void TutorialLayer::onClick(Ref *sender){
@@ -129,8 +188,6 @@ void TutorialLayer::onClick(Ref *sender){
       default:
           break;
   }
-
-
 }
 
 void TutorialLayer::addCards(){
@@ -141,8 +198,6 @@ void TutorialLayer::addCards(){
         _rootLayer->addChild(_cardSprite[i],48,2000+i);
         _cardSprite[i]->setPosition(Vec2(visibleSize.width/2,visibleSize.height-30));
     }
-    
-    
    
     
 //    img_1=static_cast<ImageView *>(_rootLayout->getChildByName("Bottom_P_01"));
@@ -215,3 +270,29 @@ void TutorialLayer::onExit(){
 
 
 }
+
+void TutorialLayer::testevent(cocos2d::network::SIOClient *client, const std::string& data){
+    log("OK %s ",data.c_str());
+}
+
+void TutorialLayer::onConnect(network::SIOClient* client)
+{
+    log("SocketIOTest::onConnect called");
+}
+
+void TutorialLayer::onMessage(network::SIOClient* client, const std::string& data)
+{
+    log("SocketIOTest::onMessage received: %s", data.c_str());
+}
+
+void TutorialLayer::onClose(network::SIOClient* client)
+{
+    log("SocketIOTest::onClose called");
+}
+
+void TutorialLayer::onError(network::SIOClient* client, const std::string& data)
+{
+    log("SocketIOTest::onError received: %s", data.c_str());
+}
+
+

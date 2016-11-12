@@ -22,12 +22,18 @@ USING_NS_CC;
 #include "network/HttpClient.h"
 using namespace network;
 
+#include "network/SocketIO.h"
+
+#include "ODSocket.h"
+
+
+
 using namespace ui;
 using namespace cocostudio;
 using namespace cocostudio::timeline;
 
 
-class TutorialLayer :public Layer {
+class TutorialLayer :public Layer ,public SocketIO::SIODelegate {
 
 public:
     CREATE_FUNC(TutorialLayer);
@@ -42,11 +48,25 @@ public:
     void onClick(Ref *sender);
 
     void initThings();
+    
+    
 
 public:
     
     void addCards();
-
+    
+    //SocketIO
+    virtual void onConnect(cocos2d::network::SIOClient* client);
+    virtual void onMessage(cocos2d::network::SIOClient* client, const std::string& data);
+    virtual void onClose(cocos2d::network::SIOClient* client);
+    virtual void onError(cocos2d::network::SIOClient* client, const std::string& data);
+    void testevent(cocos2d::network::SIOClient *client, const std::string& data);
+    
+    
+    void connectServer();
+    void receiveData();
+    
+    
 public:
     Size visibleSize;
     Director *director;
@@ -62,6 +82,9 @@ protected:
     ImageView *img_3;
     ImageView *img_4;
     
+    SIOClient *client;
+    
+    ODSocket socket;
     
 };
 
