@@ -134,13 +134,14 @@ void TutorialLayer::connectServer()
     
     // 设置服务器的IP地址，端口号
     // 并连接服务器 Connect
-    const char* ip = "127.0.0.1";
-    int port = 3012;
+    const char* ip = "123.57.237.129";
+    int port = 10012;
     bool result = socket.Connect(ip, port);
     
     // 发送数据 Send
-    string content="{\"action\":\"exit\"}";
-    auto count= socket.Send(content.c_str(), strlen(content.c_str()));
+   auto content= String::createWithFormat("{\"action\":\"login\",\"uid\":%d}",1);
+//    string content="{\"action\":\"login\",\"uid\":1}";
+    auto count= socket.Send(content->getCString(), content->length());
     
     if (result) {
         CCLOG("connect to server success!");

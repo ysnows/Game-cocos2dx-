@@ -83,6 +83,8 @@
 		315F83201DC04B11006F9EA3 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 315F831E1DC04B11006F9EA3 /* fonts */; };
 		315F832C1DC05CA1006F9EA3 /* VisibleRect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315F832A1DC05CA1006F9EA3 /* VisibleRect.cpp */; };
 		315F832D1DC05CA1006F9EA3 /* VisibleRect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315F832A1DC05CA1006F9EA3 /* VisibleRect.cpp */; };
+		31674FBA1DE28CC000693CDC /* SocketTestLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31674FB81DE28CC000693CDC /* SocketTestLayer.cpp */; };
+		31674FBB1DE28CC000693CDC /* SocketTestLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31674FB81DE28CC000693CDC /* SocketTestLayer.cpp */; };
 		3187195B1DC03B5200AC54E1 /* BaseScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 318719591DC03B5200AC54E1 /* BaseScene.cpp */; };
 		3187195C1DC03B5200AC54E1 /* BaseScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 318719591DC03B5200AC54E1 /* BaseScene.cpp */; };
 		31B4AF351DC19DED00C213BE /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 31B4AF221DC19DED00C213BE /* sqlite3.c */; };
@@ -253,6 +255,8 @@
 		315F83291DC05C8D006F9EA3 /* zxzToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zxzToast.h; sourceTree = "<group>"; };
 		315F832A1DC05CA1006F9EA3 /* VisibleRect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VisibleRect.cpp; sourceTree = "<group>"; };
 		315F832B1DC05CA1006F9EA3 /* VisibleRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisibleRect.h; sourceTree = "<group>"; };
+		31674FB81DE28CC000693CDC /* SocketTestLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SocketTestLayer.cpp; sourceTree = "<group>"; };
+		31674FB91DE28CC000693CDC /* SocketTestLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketTestLayer.h; sourceTree = "<group>"; };
 		318719591DC03B5200AC54E1 /* BaseScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseScene.cpp; sourceTree = "<group>"; };
 		3187195A1DC03B5200AC54E1 /* BaseScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseScene.h; sourceTree = "<group>"; };
 		31B4AF221DC19DED00C213BE /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqlite3.c; sourceTree = "<group>"; };
@@ -463,6 +467,13 @@
 			path = ODSocket;
 			sourceTree = "<group>";
 		};
+		31674FC11DE2A0A900693CDC /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
 		318719541DC03B2800AC54E1 /* base */ = {
 			isa = PBXGroup;
 			children = (
@@ -509,6 +520,8 @@
 				31B4AF4D1DC1AF5B00C213BE /* FqaLayer.h */,
 				31B4AF581DC1CEC700C213BE /* TutorialLayer.cpp */,
 				31B4AF591DC1CEC700C213BE /* TutorialLayer.h */,
+				31674FB81DE28CC000693CDC /* SocketTestLayer.cpp */,
+				31674FB91DE28CC000693CDC /* SocketTestLayer.h */,
 			);
 			path = layer;
 			sourceTree = "<group>";
@@ -563,6 +576,7 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				31674FC11DE2A0A900693CDC /* model */,
 				311CCE191DD6E377008D4D74 /* ODSocket */,
 				31B4AF4B1DC1AF5000C213BE /* layer */,
 				31B4AF431DC1A32400C213BE /* helper */,
@@ -844,6 +858,7 @@
 				31F3976C1DC1F956001B2D39 /* SplashScene.cpp in Sources */,
 				31B4AF4E1DC1AF5B00C213BE /* FqaLayer.cpp in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				31674FBA1DE28CC000693CDC /* SocketTestLayer.cpp in Sources */,
 				31B4AF351DC19DED00C213BE /* sqlite3.c in Sources */,
 				315F832C1DC05CA1006F9EA3 /* VisibleRect.cpp in Sources */,
 				31F3976A1DC1F956001B2D39 /* FirstScene.cpp in Sources */,
@@ -867,6 +882,7 @@
 			files = (
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				31B4AF4F1DC1AF5B00C213BE /* FqaLayer.cpp in Sources */,
+				31674FBB1DE28CC000693CDC /* SocketTestLayer.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 				3187195C1DC03B5200AC54E1 /* BaseScene.cpp in Sources */,

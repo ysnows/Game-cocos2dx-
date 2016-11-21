@@ -16,7 +16,7 @@ SplashScene::SplashScene(bool bPortrait){
 }
 
 void SplashScene::switchToTargetScene(float dt){
-    director->replaceScene(TransitionFlipX::create(1.0f, TutorialLayer::createScene()));
+    director->replaceScene(TransitionFlipX::create(1.0f, SocketTestLayer::createScene()));
 }
 
  void SplashScene::runThisScene(){

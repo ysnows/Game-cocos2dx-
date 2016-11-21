@@ -28,6 +28,9 @@ using namespace cocostudio::timeline;
 
 #include "FirstScene.h"
 
+#include "SocketTestLayer.h"
+
+
 class SplashScene:public BaseScene {
     
 public:
