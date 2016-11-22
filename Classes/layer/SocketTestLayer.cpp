@@ -13,14 +13,16 @@ void SocketTestLayer::initThings() {
 
   connectServer();
     
-    
 }
 
 void SocketTestLayer::onCreateGameLayer(){
-    addBtn(StringUtils::format("{\"action\":\"login\",\"uid\":%d}",1), "登录", Vec2(visibleSize.width/2,visibleSize.height/8*7));
+    addBtn(StringUtils::format("{\"action\":\"login\",\"uid\":%d}",2), "登录", Vec2(visibleSize.width/2,visibleSize.height/8*7));
     addBtn("{\"action\":\"exit\"}", "退出", Vec2(visibleSize.width/2,visibleSize.height/8*6));
     
-    addBtn("{\"action\":\"enterRoom\",\"uid\":1,\"roomId\":7}", "进入房间", Vec2(visibleSize.width/2,visibleSize.height/8*5));
+    addBtn("{\"action\":\"enterRoom\",\"uid\":2,\"roomId\":1}", "进入房间", Vec2(visibleSize.width/2,visibleSize.height/8*5));
+    addBtn("{\"action\":\"ok\"}", "准备", Vec2(visibleSize.width/2,visibleSize.height/8*4));
+    addBtn("{\"action\":\"pledge\",\"cashPledge\":100}", "押金", Vec2(visibleSize.width/2,visibleSize.height/8*3));
+    addBtn("{\"action\":\"getCard\"}", "补牌", Vec2(visibleSize.width/2,visibleSize.height/8*2));
     
 }
 
