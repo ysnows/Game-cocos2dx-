@@ -94,14 +94,16 @@ void FqaLayer::onCreateGameLayer(){
      text_number=static_cast<Text *>(_rootLayout->getChildByName("Label_Number"));
     
      setPageContent(currentNum);
-    
-    
+
+
+
+
     auto btn_tutorial=static_cast<Button *>(_rootLayout->getChildByName("Button_Tut"));
     btn_tutorial->addClickEventListener([this](Ref *sender){
         director->replaceScene(TransitionPageTurn::create(1.0f, TutorialLayer::createScene(),false));
     });
-    
-    
+
+
     auto btn_ret=dynamic_cast<Button *>(_rootLayout->getChildByName("Button_Ret"));
     btn_ret->addClickEventListener([this](Ref *sender){
         director->replaceScene(TransitionPageTurn::create(1.0f, FirstScene::createScene(),true));

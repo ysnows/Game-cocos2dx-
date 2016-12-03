@@ -10,9 +10,12 @@
 #define SocketTestLayer_h
 
 #include <stdio.h>
+#include <ui/UIWebView.h>
+
 using namespace std;
 
 #include "cocos2d.h"
+
 USING_NS_CC;
 
 #include "editor-support/cocostudio/CocoStudio.h"
@@ -23,23 +26,27 @@ USING_NS_CC;
 USING_NS_CC_EXT;
 
 using namespace ui;
+
 using namespace cocostudio;
 using namespace cocostudio::timeline;
 
 #include "ODSocket.h"
-
 #include "json/document.h"
+
 using namespace rapidjson;
 
 
-class SocketTestLayer :public Layer {
+class SocketTestLayer : public Layer {
 
 public:
     CREATE_FUNC(SocketTestLayer);
+
     virtual bool init();
-    static Scene * createScene();
+
+    static Scene *createScene();
 
     virtual void onEnter();
+
     virtual void onExit();
 
     void onCreateGameLayer();
@@ -47,11 +54,12 @@ public:
     void onClick(Ref *sender);
 
     void initThings();
-    
+
     void connectServer();
+
     void receiveData();
 
-    void addBtn(string content,string name,Vec2 position);
+    void addBtn(string content, string name, Vec2 position);
 
 public:
     Size visibleSize;
@@ -59,13 +67,11 @@ public:
     Vec2 visibleOrigin;
     Node *_rootLayer;
     Layout *_rootLayout;
-    
-    
-    ODSocket socket;
-    
-    
-};
 
+    ODSocket socket;
+
+
+};
 
 
 #endif /* SocketTestLayer_hpp */
